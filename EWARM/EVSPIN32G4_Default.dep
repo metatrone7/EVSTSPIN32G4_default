@@ -1,170 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>5</fileVersion>
-    <fileChecksum>349946761</fileChecksum>
+    <fileChecksum>1099948017</fileChecksum>
     <configuration>
         <name>EVSPIN32G4_Default</name>
         <outputs>
-            <file>$PROJ_DIR$\..\Inc\stm32g4xx_it.h</file>
-            <file>$PROJ_DIR$\..\Inc\main.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_exti.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_opamp.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_tim.c</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Exe\EVSPIN32G4_Default.out</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\..\Src\system_stm32g4xx.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_dac.c</file>
             <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_adc.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_usart.c</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Exe\EVSPIN32G4_Default.hex</file>
-            <file>$PROJ_DIR$\..\Src\main.c</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\EWARM\startup_stm32g431xx.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\EWARM\startup_stm32g431xx.o.rsp</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_comp.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_rcc.c</file>
+            <file>$PROJ_DIR$\..\Src\User_debug.c</file>
+            <file>$PROJ_DIR$\..\Src\User_uart.c</file>
+            <file>$PROJ_DIR$\..\Inc\User_debug.h</file>
+            <file>$PROJ_DIR$\..\Inc\User_uart.h</file>
+            <file>$PROJ_DIR$\..\Src\User_util.c</file>
+            <file>$PROJ_DIR$\..\Inc\User_periodic.h</file>
+            <file>$PROJ_DIR$\..\Src\User_periodic.c</file>
+            <file>$PROJ_DIR$\..\Src\User_SystemControl.c</file>
+            <file>$PROJ_DIR$\..\Inc\User_util.h</file>
+            <file>$PROJ_DIR$\..\Inc\User_SystemControl.h</file>
+            <file>$PROJ_DIR$\..\Inc\main.h</file>
+            <file>$PROJ_DIR$\..\Inc\stm32_assert.h</file>
             <file>$PROJ_DIR$\..\Src\stm32g4xx_it.c</file>
-            <file>$PROJ_DIR$\startup_stm32g431xx.s</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_dma.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_i2c.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_pwr.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\Src\system_stm32g4xx.c</file>
+            <file>$PROJ_DIR$\..\Src\main.c</file>
+            <file>$PROJ_DIR$\..\Inc\stm32g4xx_it.h</file>
             <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_utils.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_exti.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_dma.c</file>
             <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_cordic.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_gpio.c</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\CMSIS\system_stm32g4xx.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_adc.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\stm32g4xx_it.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\main.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_comp.o</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usart.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_rcc.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_gpio.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_pwr.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_utils.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_i2c.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_opamp.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_system.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_tim.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_cordic.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_bus.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_crs.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_exti.h</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\mpu_armv7.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_dma.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_dmamux.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_adc.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_comp.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_cortex.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_dac.h</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_iccarm.h</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_compiler.h</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cm4.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_cordic.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_dac.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_exti.o</file>
+            <file>$PROJ_DIR$\..\Src\gpio.c</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\UserSystemControl\User_SystemControl.o</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Exe\EVSPIN32G4_Default.hex</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\List\EVSPIN32G4_Default.map</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Exe\EVSPIN32G4_Default.out</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\dma.o</file>
             <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_dma.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_gpio.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_i2c.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_opamp.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_utils.o</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_version.h</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_pwr.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_usart.o</file>
-            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_rcc.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_i2c.h</file>
+            <file>$PROJ_DIR$\..\Src\adc.c</file>
+            <file>$PROJ_DIR$\..\Src\usart.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_adc.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_crs.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\..\Src\cordic.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_utils.h</file>
             <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_tim.o</file>
+            <file>$PROJ_DIR$\..\Src\tim.c</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\main.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_gpio.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\UserPeriodic\User_periodic.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_gpio.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_tim.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\Inc\gpio.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\usart.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\gpio.o</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_rcc.o</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_utils.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\i2c.o</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_cordic.o</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\UserDebugger\User_util.o</file>
+            <file>$PROJ_DIR$\..\Inc\adc.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_pwr.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_system.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\tim.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_rcc.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\CMSIS\system_stm32g4xx.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_exti.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_cortex.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\adc.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g431xx.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\EWARM\startup_stm32g431xx.o.rsp</file>
+            <file>$PROJ_DIR$\..\Inc\usart.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\STSPIN32G4_RegisterConfiguration\stspin32gx_i2c.o</file>
+            <file>$PROJ_DIR$\..\Src\i2c.c</file>
+            <file>$PROJ_DIR$\..\Src\dma.c</file>
+            <file>$PROJ_DIR$\..\Inc\tim.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\UserDebugger\User_debug.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_bus.h</file>
+            <file>$PROJ_DIR$\..\Inc\dma.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\..\Inc\cordic.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\stm32g4xx_it.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\..\Inc\i2c.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_dmamux.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_tim.c</file>
+            <file>$PROJ_DIR$\stm32g431xx_flash.icf</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_usart.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_usart.c</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\cordic.o</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_i2c.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_rcc.c</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\EWARM\startup_stm32g431xx.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usart.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_cordic.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_dma.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_pwr.c</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_exti.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\User\UserDebugger\User_uart.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_adc.h</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Drivers\STM32G4xx_HAL_Driver\stm32g4xx_ll_pwr.o</file>
+            <file>$PROJ_DIR$\EVSPIN32G4_Default\Obj\Application\STSPIN32G4_RegisterConfiguration\stspin32gx_register_config.o</file>
+            <file>$PROJ_DIR$\startup_stm32g431xx.s</file>
+            <file>$PROJ_DIR$\..\Inc\stspin32gx_i2c.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_gpio.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_i2c.c</file>
+            <file>$PROJ_DIR$\..\Inc\stspin32gx_register_config.h</file>
+            <file>$PROJ_DIR$\..\Inc\User_predefine.h</file>
+            <file>$PROJ_DIR$\..\Src\stspin32gx_i2c.c</file>
+            <file>$PROJ_DIR$\..\Src\stspin32gx_register_config.c</file>
+            <file>$PROJ_DIR$\..\Inc\spin32g4_parameters.h</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_exti.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 64</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 48</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_opamp.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 68</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 42</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_tim.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 74</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 46 44</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\EVSPIN32G4_Default\Exe\EVSPIN32G4_Default.out</name>
-            <outputs>
-                <tool>
-                    <name>OBJCOPY</name>
-                    <file> 12</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Src\system_stm32g4xx.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 31</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_dac.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 63</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 46 55</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_adc.c</name>
             <outputs>
@@ -176,61 +139,82 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 52 46</file>
+                    <file> 110 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 82</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_usart.c</name>
+            <name>$PROJ_DIR$\..\Src\User_debug.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 72</file>
+                    <file> 80</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 46 37 36</file>
+                    <file> 11 110 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 103 105 90 28 62 82 33 60 108 67 36 59 44 102 40 45 121 6 118 4 3 10 117 74 31 54 88 9 114</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Src\main.c</name>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 52 46 53 45 54 47 55 50 51 48 38 41 42 39 37 43 44 36 40 1</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_comp.c</name>
+            <name>$PROJ_DIR$\..\Src\User_uart.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 35</file>
+                    <file> 109</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 53</file>
+                    <file> 74 73 104 49 50 85 79 45 31 54 88 102 84 70 81 46 64 65 42 99 91 118 4 9</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_rcc.c</name>
+            <name>$PROJ_DIR$\..\Src\User_util.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 73</file>
+                    <file> 57</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 37</file>
+                    <file> 74 73 104 49 50 85 79 45 31 54 88 118 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\User_periodic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 104 49 50 85 79 45 6 11 110 84 70 81 46 64 65 42 99 91 103 105 90 28 62 82 33 60 108 67 36 59 44 102 40 121 4 3 10 118 117</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\User_SystemControl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74 73 104 49 50 85 79 45 31 54 88 84 70 81 46 64 65 42 99 91 10 118 4 9</file>
                 </tool>
             </inputs>
         </file>
@@ -239,73 +223,43 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 33</file>
+                    <file> 87</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 52 46 53 45 54 47 55 50 51 48 38 41 42 39 37 43 44 36 40 1 0</file>
+                    <file> 11 110 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 103 105 90 28 62 82 33 60 108 67 36 59 44 102 40 45 121 6 118 4 3 10 117 16 31 54 88</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\startup_stm32g431xx.s</name>
+            <name>$PROJ_DIR$\..\Src\system_stm32g4xx.c</name>
             <outputs>
                 <tool>
-                    <name>AARM</name>
-                    <file> 14</file>
+                    <name>ICCARM</name>
+                    <file> 63</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>AARM</name>
-                    <file> 15</file>
+                    <name>ICCARM</name>
+                    <file> 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_dma.c</name>
+            <name>$PROJ_DIR$\..\Src\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 65</file>
+                    <file> 39</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 46 50 51</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_i2c.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 67</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 46 41</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_pwr.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 71</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 46 39</file>
+                    <file> 11 110 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 103 105 90 28 62 82 33 60 108 67 36 59 44 102 40 45 121 6 118 4 3 10 117 58 86 83 89 78 72 47</file>
                 </tool>
             </inputs>
         </file>
@@ -314,33 +268,18 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 69</file>
+                    <file> 53</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 39 37 43 40</file>
+                    <file> 36 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 62 60 59</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_cordic.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 62</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 46 45</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_gpio.c</name>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_exti.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -350,7 +289,37 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 25 16 26 17 6 8 60 57 61 30 58 56 70 59 49 46 38</file>
+                    <file> 108 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 90 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_cordic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 82</file>
                 </tool>
             </inputs>
         </file>
@@ -359,13 +328,392 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 5</file>
+                    <file> 25 24</file>
                 </tool>
             </outputs>
         </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47 11 110 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 103 105 90 28 62 82 33 60 108 67 36 59 44 102 40 45 121 6 118 4 3 10 117</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\EVSPIN32G4_Default\Exe\EVSPIN32G4_Default.hex</name>
+            <inputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\EVSPIN32G4_Default\Exe\EVSPIN32G4_Default.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 94 68 97 26 51 55 39 101 87 32 56 27 66 43 98 111 52 37 95 53 75 112 63 61 48 80 41 22 109 57 69 34 92 107</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 11 110 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 103 105 90 28 62 82 33 60 108 67 36 59 44 102 40 45 121 6 118 4 3 10 117</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72 11 110 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 103 105 90 28 62 82 33 60 108 67 36 59 44 102 40 45 121 6 118 4 3 10 117</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\cordic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 11 110 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 103 105 90 28 62 82 33 60 108 67 36 59 44 102 40 45 121 6 118 4 3 10 117</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78 11 110 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 103 105 90 28 62 82 33 60 108 67 36 59 44 102 40 45 121 6 118 4 3 10 117</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89 11 110 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 103 105 90 28 62 82 33 60 108 67 36 59 44 102 40 45 121 6 118 4 3 10 117</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83 11 110 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 103 105 90 28 62 82 33 60 108 67 36 59 44 102 40 45 121 6 118 4 3 10 117</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 62 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_stm32g431xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 71</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stspin32gx_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 104 49 50 85 79 45 70 81 46 64 65 42 99 91 28 84 114</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stspin32gx_register_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11 110 84 70 81 73 104 49 50 85 79 46 64 65 42 99 91 103 105 90 28 62 82 33 60 108 67 36 59 44 102 40 45 121 6 118 4 3 10 117 114</file>
+                </tool>
+            </inputs>
+        </file>
         <forcedrebuild>
-            <name>[MULTI_TOOL]</name>
-            <tool>ILINK</tool>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_adc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\User_debug.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\User_uart.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\User_util.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\User_periodic.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\User_SystemControl.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\stm32g4xx_it.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\system_stm32g4xx.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\main.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_utils.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_exti.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_dma.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_cordic.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\gpio.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\adc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\usart.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\cordic.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\tim.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\i2c.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\dma.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_tim.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_usart.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_rcc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_pwr.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_gpio.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_i2c.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\stspin32gx_i2c.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\stspin32gx_register_config.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
         </forcedrebuild>
     </configuration>
 </project>
